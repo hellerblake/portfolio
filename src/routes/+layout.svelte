@@ -1,6 +1,7 @@
 <script>
 	import Nav from "$lib/components/Nav.svelte";
-    import "../app.css";
+    import "../app.postcss";
+  import "../prism.css"
 </script>
 <div class="min-h-screen flex flex-col justify-between bg-white border-gray-200 dark:bg-gray-900">
   <div>
