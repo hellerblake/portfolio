@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 	export let data
-  
-  const formatedDate = data.meta.date && (new Date(data.meta.date)).toDateString()
+  let formatedDate: string
+  if(data.meta.date != void 0) formatedDate = (new Date(data.meta.date)).toDateString() 
 </script>
 
 <svelte:head>
